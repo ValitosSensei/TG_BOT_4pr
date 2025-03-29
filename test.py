@@ -12,8 +12,8 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Конфігурація змінних оточення
-TOKEN = os.getenv("7449909716:AAEzwNAzh85-IwsNgRTB90d6NVl8OoCqB8c")
-DATABASE_URL = os.getenv("postgresql://telegrambot_gxyd_user:0YNcGzqKz6D2UCdEQTaLsvuSqDhOatLy@dpg-cvk0cr0gjchc73c6grf0-a/telegrambot_gxyd")
+TOKEN = os.getenv("TELEGRAM_TOKEN")
+DATABASE_URL = os.getenv("DATABASE_URL")
 EXCHANGE_API_URL = "https://api.exchangerate-api.com/v4/latest/USD"
 
 # Ініціалізація бота та диспетчера
