@@ -7,7 +7,7 @@ from aiogram import Bot, Dispatcher, types, F, Router
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardMarkup, InlineKeyboardButton
 
 TOKEN = "7449909716:AAEzwNAzh85-IwsNgRTB90d6NVl8OoCqB8c"
-DATABASE_URL = "postgresql://telegrambot_gxyd_user:0YNcGzqKz6D2UCdEQTaLsvuSqDhOatLy@dpg-cvk0cr0gjchc73c6grf0-a:5432/telegrambot_gxyd"
+DATABASE_URL = "postgresql://telegrambot_gxyd_user:0YNcGzqKz6D2UCdEQTaLsvuSqDhOatLy@dpg-cvk0cr0gjchc73c6grf0-a/telegrambot_gxyd"
 EXCHANGE_API_URL = "https://api.exchangerate-api.com/v4/latest/USD"
 
 bot = Bot(token=TOKEN)
