@@ -50,7 +50,7 @@ async def create_db():
 
 async def on_startup(app: web.Application):
     """Дії при старті сервера"""
-    await bot.set_webhook(f"{os.getenv('RENDER_EXTERNAL_URL')}/webhook")
+    await bot.set_webhook(f"{os.getenv('https://tg-bot-4pr.onrender.com')}/webhook")
     await create_db()
 
 @router.message(F.text.in_({'/start', '/help'}))
